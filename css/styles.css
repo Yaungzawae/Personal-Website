@@ -44,18 +44,7 @@ ul{
     margin-top: 0;
 }
 
-th,td{
-    padding:1.2em;
-    border: solid 1px gray;
-}
 
-table{
-    display: inline-block;
-    position: relative;
-    table-layout: fixed;
-    border: solid 2px black;
-    border-collapse: collapse;
-}
 
 hr{
     width: 10%;
@@ -65,9 +54,11 @@ hr{
 
 a{
     color:#11999E;
+    font-size: 1.3rem;
     padding: 10px 25px;
     text-decoration: none;
     margin-top: 10px;
+
 }
 .top-container {
   background-color: #BBE1FA;
@@ -78,8 +69,7 @@ a{
 .middle-container {
     background-color: white;
     position: relative;
-    margin-top: 0;
-    bottom: 5px;
+    bottom: 0.6rem;
 
 }
 
