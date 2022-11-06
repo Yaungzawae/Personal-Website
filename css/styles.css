@@ -25,6 +25,10 @@ h3 {
   color: #3282b8;
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 hr {
   width: 10%;
   border-style: dotted none none none;
