@@ -156,8 +156,13 @@ a:hover {
   padding: 20px 0;
 }
 
-.TextWidth {
-  width: 30%;
-  font-size: 1rem;
-  margin: 0 auto;
+.intro{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.outro{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.1rem;
 }
