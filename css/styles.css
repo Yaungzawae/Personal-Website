@@ -2,89 +2,74 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-
 }
 
 h1 {
+  color: #0f4c75;
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   margin: 40px auto 0 auto;
 }
 
 h2 {
+  color: #0f4c75;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   margin-top: 0;
+  padding-bottom: 10px;
 }
 
-h1,
-h2 {
-  color: #0F4C75;
+h3 {
+  font-size: 1.5rem;
+  color: #3282b8;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 0.8rem;
+  margin: 50px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f2f3f5;
 }
 
 
-
-h3{
-    font-size: 1.5rem;
-    color: #3282B8;
-}
-
-p,li{
-    color: #1B262C;
-    font-size: 1.3rem;
-}
-
-ul{
-    display: inline-block;
-    position: relative;
-    list-style-position:inside;
-    list-style-type:circle;
-    text-align: left;
-    margin-top: 0;
-}
-
-
-
-hr{
-    width: 10%;
-    border-style: dotted none none none;
-    border-width: 0.8rem;
-}
-
-a{
-    color:#11999E;
-    font-size: 1.3rem;
-    padding: 10px 25px;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
 .top-container {
-  background-color: #BBE1FA;
+  background-color: #bbe1fa;
   padding-top: 50px;
   position: relative;
 }
 
 .middle-container {
-    background-color: white;
-    position: relative;
-    bottom: 25px;
-
+  background-color: white;
+  position: relative;
+  bottom: 25px;
 }
 
 .bottom-container {
-    background-color: #EAF6F6;
-    margin-top: 20px;
-    margin-bottom: 0;
-    padding: 20px;
+  background-color: #66bfbf;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 50px 0 20px;
 }
-.mountain{
-    height: 22.5rem;
-    box-sizing: border-box;
+.mountain {
+  height: 360px;
+  box-sizing: border-box;
+}
 
-}
-.top-cloud {
+.sun{
   position: absolute;
   display: inline-block;
   right: 275px;
@@ -98,46 +83,80 @@ a{
   left: 300px;
   bottom: 340px;
 }
-.profile{
-    margin-bottom: 30px;
+
+.profile_img {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
 }
 
-.profile_img{
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
+.programming {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
 }
 
-.programming{
-    width: 25%;
-    margin-right: 30px;
-    float: left;
+.maths {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
 }
 
-.maths{
-    width: 25%;
-    margin-left: 30px;
-    float: right;
+.profile {
+    margin-bottom: 20px;
+  }
+  
+.skills {
+  margin-top: 15px;
 }
 
-.skills{
-    margin-top: 15px;
+.skill-row {
+  margin: 40px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
 }
 
-.skill-row{
-    margin: 40px auto;
-    width: 50%;
-    line-height: 2;
-    text-align: left;
+.contact-me {
+  margin-top: 30px;
 }
 
-.contact-me{
-    margin-top: 30px;
+.btn {
+  display: inline-block;
+  margin-top: 50px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.btn{
-    background-color: #0ec4cb ;
-    color: white;
-    border-radius: 5%;
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.TextWidth {
+  width: 30%;
+  margin: 0 auto;
+}
